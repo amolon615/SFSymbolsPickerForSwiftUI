@@ -30,7 +30,7 @@ public enum Category: String, CaseIterable, Identifiable {
     case arrows = "Arrows"
     case indices = "Indices"
     case math = "Math"
-    case habit = "Habit
+    case habit = "Habit"
     
     case none = ""
 }
