@@ -30,6 +30,7 @@ public enum Category: String, CaseIterable, Identifiable {
     case arrows = "Arrows"
     case indices = "Indices"
     case math = "Math"
+    case habit = "Habit
     
     case none = ""
 }
@@ -186,5 +187,7 @@ let symbols : [String: [String]] = [
         "36.circle","36.circle.fill","36.square","36.square.fill","37.circle","37.circle.fill","37.square","37.square.fill","38.circle","38.circle.fill","38.square","38.square.fill","39.circle","39.circle.fill","39.square","39.square.fill","40.circle","40.circle.fill","40.square","40.square.fill",
         "41.circle","41.circle.fill","41.square","41.square.fill","42.circle","42.circle.fill","42.square","42.square.fill","43.circle","43.circle.fill","43.square","43.square.fill","44.circle","44.circle.fill","44.square","44.square.fill","45.circle","45.circle.fill","45.square","45.square.fill",
         "46.circle","46.circle.fill","46.square","46.square.fill","47.circle","47.circle.fill","47.square","47.square.fill","48.circle","48.circle.fill","48.square","48.square.fill","49.circle","49.circle.fill","49.square","49.square.fill","50.circle","50.circle.fill","50.square","50.square.fill"
-    ]
+    ],
+     "Habit":
+        ["bed.double", "powersleep", "bed.double.fill", "brain", "brain.head.profile", "carrot", "birthday.cake", "wineglass", "wineglass.fill", "cup.and.saucer", "cup.and.saucer.fill", "fork.knife", "pencil", "highlighter", "figure.disc.sports", "figure.run", "figure.run.circle.fill", "figure.pool.swim","figure.outdoor.cycle", "bicycle", "figure.strengthtraining.functional", "sun.min", "pill", "pills", "x.squareroot" ]
 ]
